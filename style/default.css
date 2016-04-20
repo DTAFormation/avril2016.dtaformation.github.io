@@ -36,3 +36,14 @@ h2 {
 	text-decoration: underline;
 	font-style: italic;
 }
+#logo {
+position: absolute;
+display: block;
+overflow: hidden;
+margin-top: 400px;
+margin-left: 100px;
+top: 0px;}
+ 
+#logo:hover{
+top: -50px;
+transition-duration: 1s;}
