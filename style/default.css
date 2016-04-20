@@ -22,6 +22,16 @@ body {
 	width: 80%;
 }
 
+.liste_detaillee li {
+	display: inline-block;
+	border: 1px solid black;
+	width: 200px;
+}
+
+.liste_detaillee li img {
+	width: 100%;
+}
+
 h1 {
 	margin-left: 4px;
 	margin-right: 4px;
@@ -36,3 +46,14 @@ h2 {
 	text-decoration: underline;
 	font-style: italic;
 }
+#logo {
+position: absolute;
+display: block;
+overflow: hidden;
+margin-top: 400px;
+margin-left: 100px;
+top: 0px;}
+ 
+#logo:hover{
+top: -50px;
+transition-duration: 1s;}
